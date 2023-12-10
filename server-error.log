@@ -1,0 +1,495 @@
+2023-12-05T06:49:51.554Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T06:49:51.554Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T07:29:10.683Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T07:29:10.683Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T07:54:04.398Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T07:54:04.399Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T07:54:34.380Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T07:54:34.381Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T07:55:43.480Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T07:55:43.480Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T08:00:56.517Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T08:00:56.517Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T08:22:00.388Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T08:22:00.388Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-05T16:51:15.118Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-05T16:51:15.119Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-06T23:10:39.547Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-06T23:10:39.548Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-06T23:52:15.678Z - error: [gme:server:worker:simpleworker:pid_1475:WorkerFunctions:PluginManagerBase:plugin:samplePlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py", line 13, in <module>
+
+2023-12-06T23:52:15.678Z - error: [gme:server:worker:simpleworker:pid_1475:WorkerFunctions:PluginManagerBase:plugin:samplePlugin]     from samplePlugin import samplePlugin
+ImportError: cannot import name 'samplePlugin' from 'samplePlugin' (/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/samplePlugin/__init__.py)
+
+2023-12-06T23:52:15.683Z - error: [gme:server:worker:simpleworker:pid_1475:WorkerFunctions:PluginManagerBase:plugin:samplePlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py 5555 "#470fe49945f4162129b979b2fa3301965ea81603" "master" "/J/9" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/samplePlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-06T23:52:15.684Z - error: [gme:server:worker:simpleworker:pid_1475:WorkerFunctions] plugin [samplePlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py 5555 "#470fe49945f4162129b979b2fa3301965ea81603" "master" "/J/9" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py 5555 "#470fe49945f4162129b979b2fa3301965ea81603" "master" "/J/9" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/samplePlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T08:28:19.413Z - error: [gme:server:standalone] Failed to start server port=8888, code=EADDRINUSE, errno=-48, syscall=listen, address=::, port=8888
+2023-12-07T17:23:46.641Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-07T17:23:46.641Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-07T18:02:38.857Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T18:02:38.858Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 86, in <module>
+    othello_game.apply_move(move)
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 26, in apply_move
+    if move in self.get_valid_moves():
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 44, in get_valid_moves
+    highlight_plugin = HighlightValidTilesPlugin(self.game_state_history[-1])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'HighlightValidTilesPlugin' is not defined
+
+2023-12-07T18:02:38.864Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8dae80acfdbbc3a8ca36e2eb669aed4c97c7d698" "master" "/n/q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T18:02:38.872Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8dae80acfdbbc3a8ca36e2eb669aed4c97c7d698" "master" "/n/q" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8dae80acfdbbc3a8ca36e2eb669aed4c97c7d698" "master" "/n/q" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T18:07:25.225Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T18:07:25.225Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 86, in <module>
+    othello_game.apply_move(move)
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 26, in apply_move
+
+2023-12-07T18:07:25.226Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     if move in self.get_valid_moves():
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 44, in get_valid_moves
+    highlight_plugin = HighlightValidTilesPlugin(self.game_state_history[-1])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2023-12-07T18:07:25.226Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] NameError: name 'HighlightValidTilesPlugin' is not defined
+
+2023-12-07T18:07:25.231Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#1e7eaff0bc6d0c1e5ecb6e9582ca869ccceeaf00" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T18:07:25.231Z - error: [gme:server:worker:simpleworker:pid_1408:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#1e7eaff0bc6d0c1e5ecb6e9582ca869ccceeaf00" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#1e7eaff0bc6d0c1e5ecb6e9582ca869ccceeaf00" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T18:35:21.823Z - error: [gme:server:worker:simpleworker:pid_1773:WorkerFunctions:PluginManagerBase:plugin:samplePlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T18:35:21.823Z - error: [gme:server:worker:simpleworker:pid_1773:WorkerFunctions:PluginManagerBase:plugin:samplePlugin]     from samplePlugin import samplePlugin
+ImportError: cannot import name 'samplePlugin' from 'samplePlugin' (/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/samplePlugin/__init__.py)
+
+2023-12-07T18:35:21.828Z - error: [gme:server:worker:simpleworker:pid_1773:WorkerFunctions:PluginManagerBase:plugin:samplePlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py 5555 "#0d4b8adaa7e30e57bf679211b4f07ae57380e53f" "master" "/J/9" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/samplePlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T18:35:21.830Z - error: [gme:server:worker:simpleworker:pid_1773:WorkerFunctions] plugin [samplePlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py 5555 "#0d4b8adaa7e30e57bf679211b4f07ae57380e53f" "master" "/J/9" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/run_plugin.py 5555 "#0d4b8adaa7e30e57bf679211b4f07ae57380e53f" "master" "/J/9" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/samplePlugin/samplePlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:29:17.360Z - error: [gme:server:worker:simpleworker:pid_3303:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T20:29:17.360Z - error: [gme:server:worker:simpleworker:pid_3303:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 86, in <module>
+    othello_game.apply_move(move)
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 26, in apply_move
+    if move in self.get_valid_moves():
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 44, in get_valid_moves
+    highlight_plugin = HighlightValidTilesPlugin(self.game_state_history[-1])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'HighlightValidTilesPlugin' is not defined
+
+2023-12-07T20:29:17.366Z - error: [gme:server:worker:simpleworker:pid_3303:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:29:17.367Z - error: [gme:server:worker:simpleworker:pid_3303:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:32:57.297Z - error: [gme:server:worker:simpleworker:pid_3425:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T20:32:57.297Z - error: [gme:server:worker:simpleworker:pid_3425:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 86, in <module>
+    othello_game.apply_move(move)
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 26, in apply_move
+    if move in self.get_valid_moves():
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 44, in get_valid_moves
+    highlight_plugin = HighlightValidTilesPlugin(self.game_state_history[-1])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'HighlightValidTilesPlugin' is not defined
+
+2023-12-07T20:32:57.303Z - error: [gme:server:worker:simpleworker:pid_3425:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:32:57.305Z - error: [gme:server:worker:simpleworker:pid_3425:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:42:15.029Z - error: [gme:server:worker:simpleworker:pid_3499:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T20:42:15.029Z - error: [gme:server:worker:simpleworker:pid_3499:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 19
+    Certainly! Below is the updated `__init__.py` file that includes the `OthelloGamePlugin` class along with the other plugins:
+             ^
+SyntaxError: invalid syntax
+
+2023-12-07T20:42:15.034Z - error: [gme:server:worker:simpleworker:pid_3499:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:42:15.036Z - error: [gme:server:worker:simpleworker:pid_3499:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:47:02.060Z - error: [gme:server:worker:simpleworker:pid_3540:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T20:47:02.060Z - error: [gme:server:worker:simpleworker:pid_3540:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+ImportError: cannot import name 'othelloPlugin' from 'othelloPlugin' (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py)
+
+2023-12-07T20:47:02.065Z - error: [gme:server:worker:simpleworker:pid_3540:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:47:02.067Z - error: [gme:server:worker:simpleworker:pid_3540:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:51:53.264Z - error: [gme:server:worker:simpleworker:pid_3657:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T20:51:53.264Z - error: [gme:server:worker:simpleworker:pid_3657:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 19
+    class OthelloPlugin(PluginBase)::
+                                    ^
+SyntaxError: invalid syntax
+
+2023-12-07T20:51:53.269Z - error: [gme:server:worker:simpleworker:pid_3657:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:51:53.271Z - error: [gme:server:worker:simpleworker:pid_3657:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:52:56.751Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T20:52:56.751Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+ImportError: cannot import name 'othelloPlugin' from 'othelloPlugin' (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py)
+
+2023-12-07T20:52:56.756Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:52:56.758Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T20:54:37.858Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 41, in <module>
+    plugin = othelloPlugin(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: othelloPlugin.__init__() takes 2 positional arguments but 7 were given
+
+2023-12-07T20:54:37.863Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:54:37.864Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:57:01.552Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 41, in <module>
+    plugin = othelloPlugin(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 21, in __init__
+
+2023-12-07T20:57:01.552Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     self.game_state_history = [initial_game_state]
+                               ^^^^^^^^^^^^^^^^^^
+NameError: name 'initial_game_state' is not defined
+
+2023-12-07T20:57:01.558Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:57:01.558Z - error: [gme:server:worker:simpleworker:pid_3688:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:57:28.545Z - error: [gme:server:worker:simpleworker:pid_3757:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 41, in <module>
+    plugin = othelloPlugin(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2023-12-07T20:57:28.545Z - error: [gme:server:worker:simpleworker:pid_3757:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]   File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 21, in __init__
+
+2023-12-07T20:57:28.546Z - error: [gme:server:worker:simpleworker:pid_3757:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     self.game_state_history = [initial_game_state]
+                               ^^^^^^^^^^^^^^^^^^
+NameError: name 'initial_game_state' is not defined
+
+2023-12-07T20:57:28.551Z - error: [gme:server:worker:simpleworker:pid_3757:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T20:57:28.552Z - error: [gme:server:worker:simpleworker:pid_3757:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T21:00:13.144Z - error: [gme:server:worker:simpleworker:pid_3795:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 41, in <module>
+    plugin = othelloPlugin(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 21, in __init__
+    self.game_state_history = [initial_game_state]
+
+2023-12-07T21:00:13.144Z - error: [gme:server:worker:simpleworker:pid_3795:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]                                ^^^^^^^^^^^^^^^^^^
+NameError: name 'initial_game_state' is not defined
+
+2023-12-07T21:00:13.150Z - error: [gme:server:worker:simpleworker:pid_3795:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T21:00:13.151Z - error: [gme:server:worker:simpleworker:pid_3795:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-07T21:05:10.865Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-07T21:05:10.866Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+ImportError: cannot import name 'othelloPlugin' from 'othelloPlugin' (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py)
+
+2023-12-07T21:05:10.871Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T21:05:10.873Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T22:30:00.324Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 41, in <module>
+    plugin = othelloPlugin(webgme, COMMIT_HASH, BRANCH_NAME, ACTIVE_NODE_PATH, ACTIVE_SELECTION_PATHS, NAMESPACE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 21, in __init__
+    self.game_state_history = [initial_game_state]
+                               ^^^^^^^^^^^^^^^^^^
+NameError: name 'initial_game_state' is not defined
+
+2023-12-07T22:30:00.324Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T22:30:00.325Z - error: [gme:server:worker:simpleworker:pid_3871:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:514:28)
+    at Pipe.<anonymous> (node:net:337:12)
+2023-12-07T23:53:41.930Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-07T23:53:41.930Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-08T00:42:46.001Z - error: [gme:server:standalone] Failed to start server port=8888, code=EADDRINUSE, errno=-48, syscall=listen, address=::, port=8888
+2023-12-08T00:43:13.833Z - error: [gme:server:standalone] Failed to start server port=8888, code=EADDRINUSE, errno=-48, syscall=listen, address=::, port=8888
+2023-12-08T00:45:52.512Z - error: [gme:server:worker:simpleworker:pid_2065:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py", line 13, in <module>
+
+2023-12-08T00:45:52.512Z - error: [gme:server:worker:simpleworker:pid_2065:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     from othelloPlugin import othelloPlugin
+  File "/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 1, in <module>
+    class othelloPlugin(PluginBase):
+                        ^^^^^^^^^^
+NameError: name 'PluginBase' is not defined
+
+2023-12-08T00:45:52.517Z - error: [gme:server:worker:simpleworker:pid_2065:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-08T00:45:52.518Z - error: [gme:server:worker:simpleworker:pid_2065:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/run_plugin.py 5555 "#8a5538f1baf49506995fb86689ff6523899b4a9d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/miniproject/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-09T21:11:15.926Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-09T21:11:15.926Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:49:37.963Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:49:37.963Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:56:06.101Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:56:06.101Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:56:15.604Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:56:15.604Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:56:27.071Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:56:27.071Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:56:35.883Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:56:35.883Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:56:48.680Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:56:48.680Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:57:09.624Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:57:09.624Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:57:30.709Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:57:30.710Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T07:57:38.665Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T07:57:38.666Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T08:08:15.044Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T08:08:15.045Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T08:10:07.465Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T08:10:07.465Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T08:10:15.683Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T08:10:15.683Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T08:11:53.596Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T08:11:53.596Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
