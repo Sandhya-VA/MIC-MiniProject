@@ -1070,3 +1070,160 @@ NameError: name 'PluginBase' is not defined
 2023-12-10T09:20:03.250Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
 2023-12-10T09:20:03.267Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
 2023-12-10T09:20:03.389Z - info: [gme:server:standalone] Server is listening ...
+2023-12-10T19:18:52.161Z - info: [gme] Node version v20.10.0
+2023-12-10T19:18:52.161Z - info: [gme] Logfile [ info ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server.log
+2023-12-10T19:18:52.161Z - info: [gme] Logfile [ error ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server-error.log
+2023-12-10T19:18:52.167Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://192.168.0.144:8888
+2023-12-10T19:18:52.216Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/sandhyavenkataramaiah/Documents/OthelloGame/blob-local-storage
+2023-12-10T19:18:52.218Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T19:18:52.226Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T19:18:52.226Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T19:19:11.993Z - info: [gme] Node version v20.10.0
+2023-12-10T19:19:11.993Z - info: [gme] Logfile [ info ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server.log
+2023-12-10T19:19:11.993Z - info: [gme] Logfile [ error ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server-error.log
+2023-12-10T19:19:11.999Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://192.168.0.144:8888
+2023-12-10T19:19:12.053Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/sandhyavenkataramaiah/Documents/OthelloGame/blob-local-storage
+2023-12-10T19:19:12.055Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T19:19:12.080Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T19:19:12.207Z - info: [gme:server:standalone] Server is listening ...
+2023-12-10T23:33:14.016Z - info: [gme] Node version v20.10.0
+2023-12-10T23:33:14.017Z - info: [gme] Logfile [ info ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server.log
+2023-12-10T23:33:14.017Z - info: [gme] Logfile [ error ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server-error.log
+2023-12-10T23:33:14.022Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://192.168.0.144:8888
+2023-12-10T23:33:14.079Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/sandhyavenkataramaiah/Documents/OthelloGame/blob-local-storage
+2023-12-10T23:33:14.080Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T23:33:14.100Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T23:33:14.229Z - info: [gme:server:standalone] Server is listening ...
+2023-12-10T23:34:17.093Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] zmq-server listening at port 5555
+2023-12-10T23:34:17.478Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,477 - othelloPlugin - INFO - sys.args: ['/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py', '5555', '"#c1a92238b2fec2776243f78b6020f0fbedc1506d"', '"master"', '"/n/3"', '""', '""']
+
+2023-12-10T23:34:17.478Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,478 - othelloPlugin - INFO - Connected to tcp://127.0.0.1:5555
+
+2023-12-10T23:34:17.482Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,482 - othelloPlugin - INFO - name: GameFolder
+
+2023-12-10T23:34:17.483Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,483 - othelloPlugin - WARNING - pos : {'x': 862, 'y': 58}
+
+2023-12-10T23:34:17.484Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,484 - othelloPlugin - ERROR - guid: 57406c5f-a879-de22-a2c1-68095ae75845
+
+2023-12-10T23:34:17.486Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,485 - othelloPlugin - INFO - Childs of Game State []
+
+2023-12-10T23:34:17.486Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,486 - othelloPlugin - INFO - Total no.of Pieces in Board : 0
+
+2023-12-10T23:34:17.487Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,487 - othelloPlugin - INFO - Childs of Game State []
+
+2023-12-10T23:34:17.487Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,487 - othelloPlugin - INFO - No more valid moves left
+2023-12-10 15:34:17,487 - othelloPlugin - INFO - This is the next Gamestate : <bound method Core.get_pointer_path of <webgme_bindings.core.Core object at 0x104bd3990>>
+
+2023-12-10T23:34:17.488Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,488 - othelloPlugin - INFO - Can't undo initial game state 
+
+2023-12-10T23:34:17.488Z - info: [gme:server:worker:simpleworker:pid_12843:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:34:17,488 - othelloPlugin - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2023-12-10T23:49:23.750Z - info: [gme] Node version v20.10.0
+2023-12-10T23:49:23.751Z - info: [gme] Logfile [ info ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server.log
+2023-12-10T23:49:23.751Z - info: [gme] Logfile [ error ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server-error.log
+2023-12-10T23:49:23.757Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://192.168.0.144:8888
+2023-12-10T23:49:23.814Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/sandhyavenkataramaiah/Documents/OthelloGame/blob-local-storage
+2023-12-10T23:49:23.815Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T23:49:23.849Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-10T23:49:23.980Z - info: [gme:server:standalone] Server is listening ...
+2023-12-10T23:49:33.094Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] zmq-server listening at port 5555
+2023-12-10T23:49:33.212Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,211 - othelloPlugin - INFO - sys.args: ['/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py', '5555', '"#c1a92238b2fec2776243f78b6020f0fbedc1506d"', '"master"', '"/n/3"', '""', '""']
+
+2023-12-10T23:49:33.213Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,213 - othelloPlugin - INFO - Connected to tcp://127.0.0.1:5555
+
+2023-12-10T23:49:33.217Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,217 - othelloPlugin - INFO - name: GameFolder
+
+2023-12-10T23:49:33.218Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,218 - othelloPlugin - WARNING - pos : {'x': 862, 'y': 58}
+
+2023-12-10T23:49:33.219Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,219 - othelloPlugin - ERROR - guid: 57406c5f-a879-de22-a2c1-68095ae75845
+
+2023-12-10T23:49:33.220Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,220 - othelloPlugin - INFO - Childs of Game State []
+
+2023-12-10T23:49:33.221Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,220 - othelloPlugin - INFO - Total no.of Pieces in Board : 0
+
+2023-12-10T23:49:33.221Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,221 - othelloPlugin - INFO - Childs of Game State []
+
+2023-12-10T23:49:33.221Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,221 - othelloPlugin - INFO - No more valid moves left
+2023-12-10 15:49:33,221 - othelloPlugin - INFO - This is the next Gamestate : <bound method Core.get_pointer_path of <webgme_bindings.core.Core object at 0x10128fc10>>
+
+2023-12-10T23:49:33.222Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,222 - othelloPlugin - INFO - Can't undo initial game state 
+
+2023-12-10T23:49:33.222Z - info: [gme:server:worker:simpleworker:pid_13341:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 15:49:33,222 - othelloPlugin - INFO - Disconnected from tcp://127.0.0.1:5555
+
+2023-12-11T05:53:49.516Z - info: [gme] Node version v20.10.0
+2023-12-11T05:53:49.516Z - info: [gme] Logfile [ info ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server.log
+2023-12-11T05:53:49.516Z - info: [gme] Logfile [ error ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server-error.log
+2023-12-11T05:53:49.523Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://172.20.10.2:8888
+2023-12-11T05:53:49.586Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/sandhyavenkataramaiah/Documents/OthelloGame/blob-local-storage
+2023-12-11T05:53:49.587Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-11T05:53:49.625Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-11T05:53:49.781Z - info: [gme:server:standalone] Server is listening ...
+2023-12-11T05:54:17.073Z - info: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] zmq-server listening at port 5555
+2023-12-11T05:54:17.421Z - info: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:54:17,421 - othelloPlugin - INFO - sys.args: ['/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py', '5555', '"#c1a92238b2fec2776243f78b6020f0fbedc1506d"', '"master"', '"/n/3"', '""', '""']
+
+2023-12-11T05:54:17.422Z - info: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:54:17,421 - othelloPlugin - INFO - Connected to tcp://127.0.0.1:5555
+
+2023-12-11T05:54:17.426Z - info: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:54:17,426 - othelloPlugin - INFO - name: GameFolder
+
+2023-12-11T05:54:17.426Z - info: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:54:17,426 - othelloPlugin - WARNING - pos : {'x': 862, 'y': 58}
+
+2023-12-11T05:54:17.427Z - info: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:54:17,427 - othelloPlugin - ERROR - guid: 57406c5f-a879-de22-a2c1-68095ae75845
+
+2023-12-11T05:54:17.429Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py", line 44, in <module>
+
+2023-12-11T05:54:17.429Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     plugin.main()
+  File "/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 33, in main
+    tiles = self.active_tiles()
+
+2023-12-11T05:54:17.429Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 130, in active_tiles
+    curr_gs = self.nodes[curr_gamestate]
+              ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: None
+
+2023-12-11T05:54:17.436Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py 5555 "#c1a92238b2fec2776243f78b6020f0fbedc1506d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-11T05:54:17.438Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py 5555 "#c1a92238b2fec2776243f78b6020f0fbedc1506d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py 5555 "#c1a92238b2fec2776243f78b6020f0fbedc1506d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-11T05:55:09.939Z - info: [gme] Node version v20.10.0
+2023-12-11T05:55:09.939Z - info: [gme] Logfile [ info ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server.log
+2023-12-11T05:55:09.939Z - info: [gme] Logfile [ error ] : /Users/sandhyavenkataramaiah/Documents/OthelloGame/server-error.log
+2023-12-11T05:55:09.946Z - info: [gme:server:standalone] Valid addresses of gme web server:  http://127.0.0.1:8888  http://172.20.10.2:8888
+2023-12-11T05:55:10.012Z - info: [gme:server:standalone:middleware:BlobServer:BlobBackend] local-storage: /Users/sandhyavenkataramaiah/Documents/OthelloGame/blob-local-storage
+2023-12-11T05:55:10.013Z - info: [gme:server:auth:gmeauth] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-11T05:55:10.040Z - info: [gme:server:standalone:mongo] connecting to: mongodb://127.0.0.1:27017/webgme_my_app
+2023-12-11T05:55:10.182Z - info: [gme:server:standalone] Server is listening ...
+2023-12-11T05:55:25.793Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] zmq-server listening at port 5555
+2023-12-11T05:55:25.908Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,908 - othelloPlugin - INFO - sys.args: ['/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py', '5555', '"#c1a92238b2fec2776243f78b6020f0fbedc1506d"', '"master"', '"/n/3"', '""', '""']
+
+2023-12-11T05:55:25.910Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,910 - othelloPlugin - INFO - Connected to tcp://127.0.0.1:5555
+
+2023-12-11T05:55:25.915Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,915 - othelloPlugin - INFO - name: GameFolder
+
+2023-12-11T05:55:25.915Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,915 - othelloPlugin - WARNING - pos : {'x': 862, 'y': 58}
+
+2023-12-11T05:55:25.916Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,916 - othelloPlugin - ERROR - guid: 57406c5f-a879-de22-a2c1-68095ae75845
+
+2023-12-11T05:55:25.917Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,917 - othelloPlugin - INFO - Childs of Game State []
+
+2023-12-11T05:55:25.918Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,918 - othelloPlugin - INFO - Total no.of Pieces in Board : 0
+
+2023-12-11T05:55:25.918Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,918 - othelloPlugin - INFO - Childs of Game State []
+
+2023-12-11T05:55:25.919Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,918 - othelloPlugin - INFO - No more valid moves left
+2023-12-10 21:55:25,918 - othelloPlugin - INFO - This is the next Gamestate : <bound method Core.get_pointer_path of <webgme_bindings.core.Core object at 0x1038c7990>>
+
+2023-12-11T05:55:25.919Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,919 - othelloPlugin - INFO - Can't undo initial game state 
+
+2023-12-11T05:55:25.919Z - info: [gme:server:worker:simpleworker:pid_28302:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] 2023-12-10 21:55:25,919 - othelloPlugin - INFO - Disconnected from tcp://127.0.0.1:5555
+

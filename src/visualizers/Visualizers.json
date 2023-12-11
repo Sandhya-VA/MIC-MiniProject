@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "Othello",
+    "title": "Othello",
+    "panel": "panels/Othello/OthelloPanel",
+    "DEBUG_ONLY": false
+  }
+]

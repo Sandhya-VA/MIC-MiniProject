@@ -493,3 +493,31 @@ NameError: name 'PluginBase' is not defined
   name: 'MongoNetworkError'
 }]
 2023-12-10T08:11:53.596Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-10T19:18:52.226Z - error: [gme:server:auth:gmeauth] MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  name: 'MongoNetworkError'
+}]
+2023-12-10T19:18:52.226Z - error: [gme:server:standalone] Cannot start server... name=MongoNetworkError
+2023-12-11T05:54:17.429Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Traceback (most recent call last):
+  File "/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py", line 44, in <module>
+
+2023-12-11T05:54:17.429Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]     plugin.main()
+  File "/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 33, in main
+    tiles = self.active_tiles()
+
+2023-12-11T05:54:17.429Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin]             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin/__init__.py", line 130, in active_tiles
+    curr_gs = self.nodes[curr_gamestate]
+              ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: None
+
+2023-12-11T05:54:17.436Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions:PluginManagerBase:plugin:othelloPlugin] Error: python /Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py 5555 "#c1a92238b2fec2776243f78b6020f0fbedc1506d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2023-12-11T05:54:17.438Z - error: [gme:server:worker:simpleworker:pid_28238:WorkerFunctions] plugin [othelloPlugin] failed with error message=python /Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py 5555 "#c1a92238b2fec2776243f78b6020f0fbedc1506d" "master" "/n/3" "" "" exited with code 1., stack=Error: python /Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/run_plugin.py 5555 "#c1a92238b2fec2776243f78b6020f0fbedc1506d" "master" "/n/3" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (/Users/sandhyavenkataramaiah/Documents/OthelloGame/src/plugins/othelloPlugin/othelloPlugin.js:99:37)
+    at ChildProcess.emit (node:events:514:28)
+    at maybeClose (node:internal/child_process:1105:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:305:5)

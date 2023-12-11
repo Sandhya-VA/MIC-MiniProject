@@ -31,14 +31,14 @@ class othelloPlugin(PluginBase):
        nodes[core.get_path(node)] = node  
     self.nodes=nodes
     tiles = self.active_tiles()
-    logger.info(self.count_color('black'))
+    logger.info("Total no.of Pieces in Board : {0}".format(self.count_color('black')+self.count_color('white')))
     for t in tiles : 
       pieces=core.get_children_paths(t)
       logger.info("Tile has a piece : {0}".format(pieces))
       t_row=core.get_attribute(t,'row')
       t_col=core.get_attribute(t,'column')
       logger.info("{0},{1} is an active tile".format(t_row,t_col))
-    #logger.info('This is our last piece played : {0}'.format(core.get_attribute(nodes[core.get_pointer_path(active_node,'lastPiece')],'Piece')))
+      logger.info('This is our last piece played : {0}'.format(core.get_attribute(nodes[core.get_pointer_path(active_node,'lastPiece')],'Piece')))
     #self.flip_lastpiece()
     self.auto()
     next_gs=core.get_pointer_path
@@ -47,7 +47,7 @@ class othelloPlugin(PluginBase):
 
   def active_tiles(self):
 
-        def check_valid(tile):
+        def check_valid_tile(tile):
             import math
             active_node = tile
             core = self.core
@@ -76,24 +76,7 @@ class othelloPlugin(PluginBase):
             column = core.get_attribute(active_node, 'column')
             state['currentMove'] = {'row': row, 'column': column}
 
-            board = [
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}]
-            ]
+            board = [[{'color': 'none'} for _ in range(8)] for _ in range(8)]
             for child in core.get_children_paths(gamestate):
                 if (core.is_instance_of(nodes[child], META['Board'])):
                     for tile in core.get_children_paths(nodes[child]):
@@ -150,7 +133,7 @@ class othelloPlugin(PluginBase):
                     column = self.core.get_attribute(tile, 'column')
                     if row is None or column is None or len(pieces) != 0:
                         continue
-                    elif check_valid(tile):
+                    elif check_valid_tile(tile):
                         valid_tiles.append(tile)
         return valid_tiles
 
@@ -172,7 +155,7 @@ class othelloPlugin(PluginBase):
         last_piece = self.nodes[self.core.get_pointer_path(self.active_node, 'lastPiece')]
         last_tile = self.core.get_parent(last_piece)
 
-        def check_valid(tile):
+        def check_valid_tile_for_move(tile):
             import math
             active_node = tile
             core = self.core
@@ -201,24 +184,7 @@ class othelloPlugin(PluginBase):
             column = core.get_attribute(active_node, 'column')
             state['currentMove'] = {'row': row, 'column': column}
 
-            board = [
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}],
-                [{'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'},
-                 {'color': 'none'}, {'color': 'none'}, {'color': 'none'}, {'color': 'none'}]
-            ]
+            board = [[{'color': 'none'} for _ in range(8)] for _ in range(8)]
             for child in core.get_children_paths(gamestate):
                 if (core.is_instance_of(nodes[child], META['Board'])):
                     for tile in core.get_children_paths(nodes[child]):
@@ -342,9 +308,9 @@ class othelloPlugin(PluginBase):
                 logger.error('Not a Valid Move')
             return check_logic(state)
 
-        check_valid(last_tile)
+        check_valid_tile_for_move(last_tile)
   def auto(self):
-        
+      # Helper functions 
       def check_valid(tile):
          
          import math        
@@ -375,16 +341,8 @@ class othelloPlugin(PluginBase):
          column=core.get_attribute(active_node,'column')
          state['currentMove']={'row':row,'column':column}        
                 
-         #row = [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]        
-         board = [[{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  , [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  , [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  ,[{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  , [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  , [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  , [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                  , [{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'},{'color':'none'}]
-                 ]        
+                 
+         board = [[{'color': 'none'} for _ in range(8)] for _ in range(8)]        
          for child in core.get_children_paths(gamestate):          
             if (core.is_instance_of(nodes[child], META['Board'])):            
                 for tile in core.get_children_paths(nodes[child]):              
@@ -398,6 +356,141 @@ class othelloPlugin(PluginBase):
          #logger.info(core.get_parent(gamestate))
        
          logger.info("Gamestate nodepath before next{0}".format(gamestate["nodePath"]))
+         next_gs = core.copy_node(gamestate,core.get_parent(gamestate))
+         core.set_pointer(next_gs,'prev',gamestate)
+         next_name=core.get_attribute(gamestate,'name')+str(1)
+         core.set_attribute(next_gs,'name',next_name)
+         next_nodes={}
+         logger.info("Gamestate nodepath after next{0}".format(gamestate["nodePath"]))
+         for node in core.load_sub_tree(next_gs) :      
+             next_nodes[core.get_path(node)] = node 
+              
+         
+        
+         def set_nextPlayer(next_gs,next_nodes):
+            cp_path=core.get_pointer_path(next_gs,'currentPlayer')
+            cp=next_nodes[cp_path]
+            for c in core.get_children_paths(next_gs):
+              child=next_nodes[c]
+              if(core.is_instance_of(child,META['Player']) and child!=cp):
+                core.set_pointer(next_gs,'currentPlayer',child)
+                np_path=core.get_pointer_path(next_gs,'currentPlayer')
+                np=next_nodes[np_path]                
+                return core.get_attribute(np,'color')
+         
+         def set_nextMove(next_gs,next_nodes,pos,player_color):
+            next_board=None
+            for c in core.get_children_paths(next_gs):
+              child=next_nodes[c]
+              if(core.is_instance_of(child,META['Board'])):
+                next_board=child
+              
+            for tile in core.get_children_paths(next_board):
+              tile=next_nodes[tile]
+              logger.debug(tile['nodePath'])
+              logger.debug(next_gs['nodePath'])
+              next_pos=(core.get_attribute(tile,'row'),core.get_attribute(tile,'column'))
+              if next_pos==pos : 
+                next_piece=core.create_child(tile,META['Piece'])#usingcopy_node to create a new node
+                #self.logger.info("Tile where piece will be created : {0},{1}".format(pos[0],pos[1]))
+                
+                next_nodes[core.get_path(next_piece)]=next_piece#added piece to next_nodes
+                core.set_attribute(next_piece,'color',player_color)
+                core.set_pointer(next_gs,'currentMove',next_piece)
+                
+                nm_path=core.get_pointer_path(next_gs,'currentMove')
+                nm=next_nodes[nm_path]
+                return core.get_attribute(nm,'color')
+              
+         def flip_tiles(next_gs,next_nodes,ft,player_color):
+            next_board=None
+            flipped_tiles=[]
+            for c in core.get_children_paths(next_gs):
+              child=next_nodes[c]
+              if(core.is_instance_of(child,META['Board'])):
+                next_board=child
+              
+            for tile in core.get_children_paths(next_board):
+              tile=next_nodes[tile]
+              next_pos=(core.get_attribute(tile,'row'),core.get_attribute(tile,'column'))
+              for t in ft :
+                if t==next_pos:
+                  flip_piece=next_nodes[core.get_children_paths(tile)[0]]
+                  core.set_attribute(flip_piece,'color',player_color)
+                  flipped_tiles.append(tile)
+            return flipped_tiles 
+                
+            #set_currentMove pointer
+         pos=(row,column)
+         player_color= core.get_attribute(nodes[cp_path],'color')
+         if player_color =='black':
+          player_color='white'
+         else :
+          player_color='black'
+         
+        
+          
+        
+      def check_logic(state):
+        flipped_tiles = []
+        current_move = state['currentMove']
+        board = state['board']
+        current_color = 'white' if state['currentPlayer'] == 'PlayerBlack' else 'black'
+        opposite_color = 'black' if current_color == 'white' else 'white'
+
+        if current_move is None:
+          return False, flipped_tiles
+
+        row, col = current_move['row'], current_move['column']
+
+        # Directions: right, down, left, up, diag right-down, diag right-up, diag left-down, diag left-up
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0), (1, 1), (1, -1), (-1, 1), (-1, -1)]
+
+        for dr, dc in directions:
+          r, c = row + dr, col + dc
+          tiles_to_flip = []
+
+        while tile_exist((r, c)) and board[r][c]['color'] == opposite_color:
+          tiles_to_flip.append((r, c))
+          r += dr
+          c += dc
+
+        if tile_exist((r, c)) and board[r][c]['color'] == current_color:
+          flipped_tiles.extend(tiles_to_flip)
+
+        is_valid_move = len(flipped_tiles) > 0
+        return is_valid_move, flipped_tiles
+
+        def tile_exist(position):
+          row, col = position
+          return 0 <= row < 8 and 0 <= col < 8
+ 
+        #Auto Move Logic
+        logger.info('{0} is the next player'.format(set_nextPlayer(next_gs,next_nodes)))
+        logger.info('{0} is the next move'.format(set_nextMove(next_gs,next_nodes,pos,player_color)))       
+        result,ft_pos=check_logic(state)
+        ft=flip_tiles(next_gs,next_nodes,ft_pos,player_color)
+        logger.info(ft)
+        for t in ft:
+          flip_piece=next_nodes[core.get_children_paths(t)[0]]
+          piece_color=core.get_attribute(flip_piece,'color')
+          logger.info('{0},{1} is the tile with color {2}'.format(core.get_attribute(t,'row'),core.get_attribute(t,'column'),piece_color))   
+
+          if result : 
+            self.util.save(self.root_node,self.commit_hash,self.branch_name)
+            logger.info('Is a valid move')
+          else : 
+            logger.error('Not a Valid Move')
+          return  check_logic(state)
+      tiles=self.active_tiles()
+      if len(tiles)!=0:
+        tile=tiles[0]
+        t_row=self.core.get_attribute(tile,'row')
+        t_col=self.core.get_attribute(tile,'column')
+        self.logger.info("{0},{1} is the active tile the AI will play".format(t_row,t_col))
+        check_valid(tile)
+      else :
+        self.logger.info("No more valid moves left")
   def undo(self):
           game_folder=self.core.get_parent(self.active_node)#will be wrong in game folder
           game_state=self.active_node
@@ -413,5 +506,3 @@ class othelloPlugin(PluginBase):
           self.core.delete_node(self.active_node)
           #Commit the changes
           self.util.save(self.root_node,self.commit_hash,self.branch_name)
-      
-   
