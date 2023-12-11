@@ -38,19 +38,10 @@ Plugins:
 Command to create Plugins: webgme new plugin --language Python othelloPlugin
 
 Highlight Valid Tiles: This functionality identifies and highlights valid tiles for the next move based on the current game state. It considers the rules of Othello, allowing placement only on tiles that would trigger color flips.
-
 Count Pieces: This functionality counts the number of pieces on the board for each player at any given state. This information is displayed to inform players of the current game score.
-
 Flipping: This functionality simulates the game mechanics after a player places a piece. It analyzes the last placed piece and performs the necessary color flips for any captured disks, updating the game state accordingly.
-
 Undo: This functionality allows players to undo their last move, reverting the game state to the previous stage. This functionality provides greater flexibility and allows for strategic backtracking.
-
 Auto: This AI functionality plays the game against the user, making valid moves based on the current game state. It aims to make optimal moves, maximizing its chances of winning. This functionality provides a challenging opponent for players.
-
-
-CreateGame: (Python) Creates a game in the proper folder with the start state.
-CheckWinCondition: (JavaScript) Checks if one player has won.
-BuildDescriptor: (JavaScript) Creates a structured data representing the model for the visualization.
 
 Gameplay:
 Othello is played on an 8x8 board with two players, Black and White.
